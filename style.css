@@ -1,0 +1,45 @@
+/*Begin here*/
+.mainDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  padding: 5px 10px 5px 10px;
+  margin: 30px;
+  width: 150px;
+  height: 44px;
+  text-align: center;
+  font: normal normal medium 14px/22px ZF Prometo;
+  color: #ffffff;
+  opacity: 1;
+  background-color: #00abe7;
+  border-radius: 30px;
+}
+
+.one:hover {
+  color: red;
+  background-color: #00bbff;
+  box-shadow: 4px solid red;
+  outline: none;
+  cursor: pointer;
+}
+.two:focus {
+  background-color: #00bbff;
+  color: rgb(255, 188, 188);
+  font-size: large;
+  cursor: pointer;
+}
+
+.three:active {
+  background-color: #ffffff;
+  color: rgb(110, 0, 0);
+  font-size: large;
+  cursor: pointer;
+}
+.four {
+  cursor: not-allowed;
+  pointer-events: none;
+  color: #c0c0c0;
+  background-color: #ffffff;
+}
